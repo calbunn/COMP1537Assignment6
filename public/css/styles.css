@@ -1,3 +1,118 @@
+@keyframes displayIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 body {
   background-color: aliceblue;
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#screen {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 15vh 15vh 1fr;
+}
+
+#titlebar {
+  grid-row: 1;
+  margin: auto;
+  width: 80%;
+  height: 100%;
+  padding: 0;
+}
+
+h1 {
+  font-size: 32pt;
+  color: darkgray;
+  text-shadow: 2px 2px 3px black;
+  text-align: center;
+  
+}
+
+#buttons {
+  grid-row: 2;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: fit-content;
+}
+
+.button {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  border: 3px solid black;
+  border-radius: 7px;
+  background-color: white;
+  box-shadow: 7px 5px 5px black;
+}
+
+.users {
+  font-size: 20pt;
+}
+
+#clear {
+  font-size: 14pt;
+}
+
+.button:hover, .users:hover {
+  cursor: pointer;
+}
+
+#content {
+  grid-row: 3;
+  height: max-content;
+  width: 100%;
+  display: grid;
+  margin-top: 30px;
+}
+
+.card_body {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  background-color: white;
+  width: 70%;
+  height: fit-content;
+  border: 2px solid black;
+  border-radius: 7px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  box-shadow: 7px 5px 5px black;
+  background-color: lightblue;
+
+  animation: displayIn 0.5s ease-in;
+}
+
+.card_left {
+  grid-column: 1;
+  font-size: 12pt;
+  text-align: left;
+  text-indent: 15px;
+}
+
+.card_right {
+  grid-column: 2;
+  border: 2px solid black;
+  height: 80%;
+  width: 80%;
+  margin: auto;
+  background-color: white;
 }

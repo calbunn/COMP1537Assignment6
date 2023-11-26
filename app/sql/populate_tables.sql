@@ -18,7 +18,7 @@ INSERT INTO A00922317_user_timeline (user_id, post_date, post_text, post_time, v
 INSERT INTO A00922317_user_timeline (user_id, post_date, post_text, post_time, viewcount) VALUES (2, '1865-04-05', 'I want to watch a movie.', '10:00 AM', 686);
 INSERT INTO A00922317_user_timeline (user_id, post_date, post_text, post_time, viewcount) VALUES (2, '1865-04-15', 'I do not feel good today.', '1:00 AM', 34985);
 
-INSERT INTO A00922317_user_timeline (user_id, post_date, post_text, post_time, viewcount) VALUES (3, '2020-03-20', 'Mage America Great Again!', '1:00 PM', 53369);
+INSERT INTO A00922317_user_timeline (user_id, post_date, post_text, post_time, viewcount) VALUES (3, '2020-03-20', 'Make America Great Again!', '1:00 PM', 53369);
 INSERT INTO A00922317_user_timeline (user_id, post_date, post_text, post_time, viewcount) VALUES (3, '2021-01-01', 'Happy New Year, please steal the election for me.', '5:00 AM', 58211);
 INSERT INTO A00922317_user_timeline (user_id, post_date, post_text, post_time, viewcount) VALUES (3, '2021-01-01', 'Really, please steal the election for me.', '5:15 AM', 42715);
 INSERT INTO A00922317_user_timeline (user_id, post_date, post_text, post_time, viewcount) VALUES (3, '2021-01-02', 'Guys I''m not joking, please steal the election for me.', '6:00 AM', 1234);

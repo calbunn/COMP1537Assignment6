@@ -6,10 +6,65 @@
     <meta charset="utf-8"/>
     <title>COMP1537 Assignment 6</title>
     <link rel="stylesheet" href="/css/styles.css"/>
+    <link rel="icon" href="/img/favicon.ico"/>
   </head>
 
   <body>
-    
+    <div id="screen">
+
+      <div id="titlebar">
+        <h1>Would you like to see some fake tweets from famous people?</h1>
+      </div>
+
+      <div id="buttons">
+        <div class="button" id="j-true">
+          <p class="users">Justin Trudeau</a>
+        </div>
+        <div class="button" id="mr-abe">
+          <p class="users">Abraham Lincoln</a>
+        </div>
+        <div class="button" id="president">
+          <p class="users">Donald Trump</a>
+        </div>
+        <div class="button" id="winniethepooh">
+          <p class="users">Xi Jinping</a>
+        </div>
+        <div class="button" id="maverick">
+          <p class="users">Tom Cruise</a>
+        </div>
+        <div class="button" id="clear">
+          <p>Clear the screen</p>
+        </div>
+      </div>
+
+      <div id="content">
+      </div>
+
+    </div>
+
+    <template class="card">
+      <div class="card_body">
+        <div class="card_left">
+          <p class="username"></p><br/>
+          <p class="date"></p><br/>
+          <p class="time"></p><br/>
+          <p class="viewcount"></p>
+        </div>
+        <div class="card_right">
+          <p class="post"></p>
+        </div>
+      </div>
+    </template>
+
+    <script src="/js/client.js"></script>
   </body>
 
 </html>
+
+<!-- Node runs on port 8000
+OK - Not using my CSS template – use your own please
+OK - Connect to the MySQL database
+ Perform either an INNER JOIN or a subquery (i.e., SELECT within a SELECT)
+ Retrieve and display the timeline data for one user based on the user record that you stored
+ Retrieve the data via an AJAX call (no separate page – like the example)
+ Follow all the requirements listed above in this document -->
