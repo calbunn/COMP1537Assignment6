@@ -20,7 +20,7 @@ body {
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-rows: 15vh 15vh 1fr;
+  grid-template-rows: 20vh 15vh 1fr;
 }
 
 #titlebar {
@@ -81,7 +81,7 @@ h1 {
   height: max-content;
   width: 100%;
   display: grid;
-  margin-top: 30px;
+  margin-top: 10%;
 }
 
 .card_body {
@@ -115,4 +115,5 @@ h1 {
   width: 80%;
   margin: auto;
   background-color: white;
+  text-indent: 10px;
 }
